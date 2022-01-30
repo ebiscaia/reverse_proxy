@@ -15,9 +15,6 @@ server {
                 proxy_set_header Host $host;
         }
 
-        
-
-
     listen [::]:443 ssl; # managed by Certbot
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/eddienetworks.ddnsfree.com/fullchain.pem; # managed by Certbot
