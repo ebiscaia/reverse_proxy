@@ -1,2 +1,1 @@
-# reverse_proxy
-Config files for my reverse proxy
+Config files for my Nginx Reverse Proxy
